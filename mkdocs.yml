@@ -50,6 +50,10 @@ theme:
 nav:
   - 主页:
     - 欢迎来到起源维基: index.md 
+  - 反应下降:
+    - 简介: gm_alienswarm/introduction.md 
+    - 制作挑战: gm_alienswarm/creating_a_challenge.md 
+    - 制作地图: gm_alienswarm/creating_a_map.md 
 
 extra: 
   social:

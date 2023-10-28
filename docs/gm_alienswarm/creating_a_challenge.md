@@ -57,7 +57,7 @@
 }
 ```
 
-我写的无尽死亡竞赛挑战。加上`"allowed_mode" "deathmatch"`可以让你的挑战由于死亡竞赛模式
+我写的无尽死亡竞赛挑战。加上`"allowed_mode" "deathmatch"`可以让你的挑战用于死亡竞赛模式
 
 ```vdf
 "CHALLENGE" {

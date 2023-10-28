@@ -22,5 +22,17 @@
 
 《反应下降》的小地图与《CSS》和《CSGO》的雷达图原理完全相同，如果你想移植只需拷贝图片和偏移量数据！
 
+在下面的几张图片中，从CSGO中直接移植来的雷达图工作得很好！
+
+![20230912190609_1.jpg](https://raw.githubusercontent.com/obscurefreeman/devwikisource/main/docs/gm_alienswarm/assets/20230912190609_1.jpg)
+
+我爱死这张第三人称了！
+
+![20230912185905_1.jpg](https://raw.githubusercontent.com/obscurefreeman/devwikisource/main/docs/gm_alienswarm/assets/20230912185905_1.jpg)
+
+湖面波光粼粼，效果也很不错！
+
+![20230912190632_1.jpg](https://raw.githubusercontent.com/obscurefreeman/devwikisource/main/docs/gm_alienswarm/assets/20230912190632_1.jpg)
+
 
 
