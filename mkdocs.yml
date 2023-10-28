@@ -1,4 +1,4 @@
-site_name: 晦涩弗里曼的维基百科
+site_name: 晦涩弗里曼 | 起源维基
 theme:
   name: material
   features:
@@ -14,7 +14,7 @@ theme:
     # - navigation.expand
     - navigation.footer
     - navigation.indexes
-    # - navigation.instant
+    - navigation.instant
     # - navigation.prune
     - navigation.sections
     - navigation.tabs
@@ -26,20 +26,55 @@ theme:
     - search.suggest
     - toc.follow
     # - toc.integrate
+  favicon: images/favicon.png
+
+  icon:
+    logo: fontawesome/solid/flask
   language: zh
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: white
       accent: indigo
       toggle:
         icon: material/brightness-4
-        name: Switch to dark mode
-    - scheme: slate
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: black
       accent: indigo
       toggle:
         icon: material/brightness-7
-        name: Switch to light mode
+        name: 切换到浅色模式
+
+nav:
+  - 主页:
+    - 欢迎来到起源维基: index.md 
+
+extra: 
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/obscurefreeman
+      name: 我的Github主页
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/channels/806044973795246080
+      name: 我的Discord讨论组
+    - icon: fontawesome/brands/steam
+      link: https://steamcommunity.com/id/obscurefreeman/
+      name: 我的Steam账号
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/y0juTLeYHfs03dZ
+      name: 我的Twitter主页
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCw_S5zgJ6ikGSXtFeAvVK8Q
+      name: 我的YouTube频道
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/user/Wonderful-Snow-6080
+      name: 我的Reddit主页
+    
+
+
+  generator: false
 
 markdown_extensions:
   - pymdownx.highlight:

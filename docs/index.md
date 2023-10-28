@@ -1,6 +1,6 @@
-# Welcome to MkDocs
+# 欢迎来到起源维基
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+你的过去已烟消云散，来做你最擅长的事吧，捣鼓一会起源引擎。
 
 ## Commands
 
@@ -10,6 +10,13 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 * `mkdocs -h` - Print help message and exit.
 
 ## Project layout
+
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+        ...       # Other markdown pages, images and other files.
+
+### Project layout
 
     mkdocs.yml    # The configuration file.
     docs/
