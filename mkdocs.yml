@@ -29,7 +29,7 @@ theme:
   language: zh
   palette:
     - scheme: default
-      primary: black
+      primary: white
       accent: indigo
       toggle:
         icon: material/brightness-4
@@ -40,6 +40,20 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to light mode
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
 
 # Copyright
 copyright: 2023 晦涩弗里曼
