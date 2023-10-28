@@ -29,13 +29,13 @@ theme:
   language: zh
   palette:
     - scheme: default
-      primary: indigo
+      primary: black
       accent: indigo
       toggle:
         icon: material/brightness-4
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
+      primary: black
       accent: indigo
       toggle:
         icon: material/brightness-7
