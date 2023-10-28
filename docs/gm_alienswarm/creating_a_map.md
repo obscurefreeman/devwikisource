@@ -12,3 +12,15 @@
 
 在和开发者讨论后，我得到了一个完美的答复。
 
+![entity-structure.png](https://raw.githubusercontent.com/obscurefreeman/devwikisource/main/docs/gm_alienswarm/assets/entity-structure.png)
+
+## 罪魁祸首浮出水面
+
+由于《反应下降》的vvis具有 `-alldetail` 参数，引擎会把所有固体转化为`func_detail`，因此你需要把套住地图的大盒子转为`func_brush`并命名为`structure_seal`，其余不想被转为`func_detail`的实体也应这么操作且命名必须以`structure_`开头。
+
+## 题外话：小地图
+
+《反应下降》的小地图与《CSS》和《CSGO》的雷达图原理完全相同，如果你想移植只需拷贝图片和偏移量数据！
+
+
+
