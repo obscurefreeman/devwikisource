@@ -51,7 +51,8 @@ theme:
 nav:
   - 主页:
     - 欢迎来到起源维基: index.md 
-    - 友情链接: links.md 
+    - 语法: syntax.md 
+    - 站外链接: links.md 
   - 反应下降:
     - 简介: games/alienswarm/introduction.md 
     - 制作挑战: games/alienswarm/creating_a_challenge.md 
@@ -96,6 +97,8 @@ markdown_extensions:
   - pymdownx.mark
   - attr_list
   - md_in_html
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 # Copyright
 copyright: 2023 晦涩弗里曼

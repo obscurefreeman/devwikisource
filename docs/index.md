@@ -2,23 +2,12 @@
 
 你的过去已烟消云散，来做你最擅长的事吧，捣鼓一会起源引擎。
 
-## Commands
+## 待办事项
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-### Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [x] 建立并配置网站。
+- [ ] 完善网站内容
+    * [x] 设计主页内容
+    * [x] 完成一部分有价值的文章
+    * [x] 添加评论系统
+    * [ ] 邀请起源圈开发者撰写文章
+- [ ] 公开并宣传网站
