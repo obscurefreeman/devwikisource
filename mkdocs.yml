@@ -1,6 +1,7 @@
 site_name: 晦涩弗里曼 | 起源维基
 theme:
   name: material
+  custom_dir: overrides
   features:
     - announce.dismiss
     - content.action.edit
@@ -94,6 +95,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - md_in_html
 
 # Copyright
 copyright: 2023 晦涩弗里曼

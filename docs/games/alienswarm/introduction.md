@@ -23,3 +23,4 @@ comments: true
 **[地图主题生成器](https://mapthemes.reactivedrop.com/)**
 
 《反应下降》的开发者花了3个月的时间用Stable Diffusion生成了21,810张图像，旨在为那些无法决定下一张地图主题的地图制作者提供灵感。
+

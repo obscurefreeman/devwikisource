@@ -10,13 +10,13 @@ comments: true
 
 游戏变成了全亮模式，并且一些不该显示的笔刷也显示了。
 
-![20230910152634_1.jpg](https://raw.githubusercontent.com/obscurefreeman/devwikisource/main/docs/gm_alienswarm/assets/20230910152634_1.jpg)
+![20230910152634_1.jpg](https://raw.githubusercontent.com/obscurefreeman/devwikisource/main/docs/games/alienswarm/assets/20230910152634_1.jpg)
 
 经过我三番五次地推断后，我忍不住把整张地图封了起来，然而编译结果仍然没有任何变化，难道不是因为地图泄露？
 
 在和开发者讨论后，我得到了一个完美的答复。
 
-![entity-structure.png](https://raw.githubusercontent.com/obscurefreeman/devwikisource/main/docs/gm_alienswarm/assets/entity-structure.png)
+![entity-structure.png](https://raw.githubusercontent.com/obscurefreeman/devwikisource/main/docs/games/alienswarm/assets/entity-structure.png)
 
 ## 罪魁祸首浮出水面
 
@@ -28,15 +28,15 @@ comments: true
 
 在下面的几张图片中，从CSGO中直接移植来的雷达图工作得很好！
 
-![20230912190609_1.jpg](https://raw.githubusercontent.com/obscurefreeman/devwikisource/main/docs/gm_alienswarm/assets/20230912190609_1.jpg)
+![20230912190609_1.jpg](https://raw.githubusercontent.com/obscurefreeman/devwikisource/main/docs/games/alienswarm/assets/20230912190609_1.jpg)
 
 我爱死这张第三人称了！
 
-![20230912185905_1.jpg](https://raw.githubusercontent.com/obscurefreeman/devwikisource/main/docs/gm_alienswarm/assets/20230912185905_1.jpg)
+![20230912185905_1.jpg](https://raw.githubusercontent.com/obscurefreeman/devwikisource/main/docs/games/alienswarm/assets/20230912185905_1.jpg)
 
 湖面波光粼粼，效果也很不错！
 
-![20230912190632_1.jpg](https://raw.githubusercontent.com/obscurefreeman/devwikisource/main/docs/gm_alienswarm/assets/20230912190632_1.jpg)
+![20230912190632_1.jpg](https://raw.githubusercontent.com/obscurefreeman/devwikisource/main/docs/games/alienswarm/assets/20230912190632_1.jpg)
 
 
 
