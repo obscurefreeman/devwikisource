@@ -53,9 +53,9 @@ nav:
     - 欢迎来到起源维基: index.md 
     - 友情链接: links.md 
   - 反应下降:
-    - 简介: gm_alienswarm/introduction.md 
-    - 制作挑战: gm_alienswarm/creating_a_challenge.md 
-    - 制作地图: gm_alienswarm/creating_a_map.md 
+    - 简介: games/alienswarm/introduction.md 
+    - 制作挑战: games/alienswarm/creating_a_challenge.md 
+    - 制作地图: games/alienswarm/creating_a_map.md 
 
 extra: 
   social:
