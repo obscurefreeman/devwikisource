@@ -1,7 +1,7 @@
 site_name: 晦涩弗里曼 | 起源维基
 repo_url: https://github.com/obscurefreeman/sourcewiki
-repo_name: 起源维基
-edit_uri: main/docs/
+repo_name: 起源维基Github主页
+edit_uri: edit/main/docs/
 theme:
   name: material
   custom_dir: overrides
