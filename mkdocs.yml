@@ -1,4 +1,7 @@
 site_name: 晦涩弗里曼 | 起源维基
+repo_url: https://github.com/obscurefreeman/sourcewiki
+repo_name: 起源维基
+edit_uri: main/docs/
 theme:
   name: material
   custom_dir: overrides
@@ -28,9 +31,9 @@ theme:
     - toc.follow
     # - toc.integrate
   favicon: images/favicon.png
-
   icon:
     logo: fontawesome/solid/flask
+    repo: fontawesome/brands/github
   language: zh
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -51,6 +54,7 @@ theme:
 nav:
   - 主页:
     - 欢迎来到起源维基: index.md 
+    - 撰写和编辑文章: edit.md 
     - 语法: syntax.md 
     - 站外链接: links.md 
   - 反应下降:
