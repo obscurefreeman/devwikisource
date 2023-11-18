@@ -4,6 +4,12 @@
 
 然而，让人难以忍受的是，《反应下降》不支持harmmer++，编辑《反应下降》地图仅能使用官方的SDK工具。在Steam库中搜索Reactive Drop，找到官方SDK，下载后重新打开《反应下降》的游戏文件夹，你能发现`bin`中多了一些开发工具，找到harmmer打开。
 
+![20231118161932.jpg](https://raw.githubusercontent.com/obscurefreeman/devwikisource/main/docs/games/alienswarm/assets/20231118161932.jpg)
+
+![20231118162013.jpg](https://raw.githubusercontent.com/obscurefreeman/devwikisource/main/docs/games/alienswarm/assets/20231118162013.jpg)
+
+![20231118162134.jpg](https://raw.githubusercontent.com/obscurefreeman/devwikisource/main/docs/games/alienswarm/assets/20231118162134.jpg)
+
 《反应下降》的地图制作和其他起源引擎游戏类似，尽管游戏内大多数地图没有3D天空盒（因为玩家正常游戏时是看不到天空的），你仍然能为地图制作天空盒，并且它们能完美显示。
 
 但当我完成这张地图开始编译时，某些东西开始出错了。
