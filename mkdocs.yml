@@ -106,6 +106,12 @@ markdown_extensions:
   - md_in_html
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.tilde
 
 # Copyright
 copyright: 2023 晦涩弗里曼
