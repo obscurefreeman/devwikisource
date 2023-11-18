@@ -83,8 +83,8 @@
 [这是一个按钮](https://obscurefreeman.github.io/sourcewiki/){ .md-button }
 
 ```
-[这是一个填充的按钮](https://obscurefreeman.github.io/sourcewiki/){ .md-button .md-button--primary }
+[这是一个填充式按钮](https://obscurefreeman.github.io/sourcewiki/){ .md-button .md-button--primary }
 ```
 
-[这是一个填充的按钮](https://obscurefreeman.github.io/sourcewiki/){ .md-button .md-button--primary }
+[这是一个填充式按钮](https://obscurefreeman.github.io/sourcewiki/){ .md-button .md-button--primary }
 

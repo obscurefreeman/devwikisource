@@ -8,7 +8,7 @@ theme:
   features:
     - announce.dismiss
     - content.action.edit
-    - content.action.view
+    # - content.action.view
     - content.code.annotate
     - content.code.copy
     # - content.code.select
@@ -57,6 +57,9 @@ nav:
     - 撰写和编辑文章: edit.md 
     - 语法: syntax.md 
     - 站外链接: links.md 
+  - Gmod:
+    - 简介: games/gmod/introduction.md 
+    - 添加菜单: games/gmod/spawnmenu.md 
   - 反应下降:
     - 简介: games/alienswarm/introduction.md 
     - 制作挑战: games/alienswarm/creating_a_challenge.md 
