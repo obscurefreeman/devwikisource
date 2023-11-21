@@ -6,6 +6,8 @@
 
 `SetIcon`对应的图标请见[官方图标列表](https://wiki.facepunch.com/gmod/Silkicons)。
 
+[搜索图标](https://heyter.github.io/js-famfamfam-search/){ .md-button .md-button--primary }
+
 ```lua
 hook.Add( "PopulateMenuBar", "oftoolkit", function( menubar )
 
@@ -75,4 +77,4 @@ end
 
 ## 工具菜单里可以添加哪些元素？
 
-[VGUI元素列表](https://wiki.facepunch.com/gmod/VGUI_Element_List){ .md-button }	[搜索VGUI元素](https://heyter.github.io/js-famfamfam-search/){ .md-button .md-button--primary }
+[VGUI元素列表](https://wiki.facepunch.com/gmod/VGUI_Element_List){ .md-button }
