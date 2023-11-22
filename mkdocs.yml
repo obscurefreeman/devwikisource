@@ -67,9 +67,9 @@ nav:
 
 extra: 
   social:
-    - icon: fontawesome/brands/blog
-      link: https://obscurefreeman.github.io/blog/
-      name: 我的博客页面
+    # - icon: fontawesome/brands/blog
+    #   link: https://obscurefreeman.github.io/blog/
+    #   name: 我的博客页面
     - icon: fontawesome/brands/github
       link: https://github.com/obscurefreeman
       name: 我的Github主页
