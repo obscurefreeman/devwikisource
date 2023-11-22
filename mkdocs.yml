@@ -67,9 +67,9 @@ nav:
 
 extra: 
   social:
-    # - icon: fontawesome/classic/mug-hot
-    #   link: https://obscurefreeman.github.io/blog/
-    #   name: 我的博客页面
+    - icon: fontawesome/solid/mug-hot
+      link: https://obscurefreeman.github.io/blog/
+      name: 我的博客页面
     - icon: fontawesome/brands/bilibili
       link: https://space.bilibili.com/523837807
       name: 我的B站主页
