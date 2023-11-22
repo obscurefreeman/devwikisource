@@ -67,9 +67,12 @@ nav:
 
 extra: 
   social:
-    - icon: fontawesome/classic/blog
+    - icon: fontawesome/classic/mug-saucer
       link: https://obscurefreeman.github.io/blog/
       name: 我的博客页面
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/523837807
+      name: 我的B站主页
     - icon: fontawesome/brands/github
       link: https://github.com/obscurefreeman
       name: 我的Github主页
