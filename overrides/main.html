@@ -1,0 +1,22 @@
+{#-
+    This file was automatically generated - do not edit
+  -#}
+  {% extends "base.html" %}
+  {% block extrahead %}
+    <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.00c04c01.min.css' | url }}">
+  {% endblock %}
+  {% block announce %}
+    欢迎来到起源维基！您可以访问
+    <a rel="me" href="https://sourcewiki.netlify.app/">
+      <strong> Netlify </strong>
+    </a>
+    或
+    <a href="https://obscurefreeman.github.io/sourcewiki/">
+      <strong> Github Pages </strong>
+    </a>
+    。两个站点内容是同步的，且国内访问 Netlify 速度更快。
+  {% endblock %}
+  {% block scripts %}
+    {{ super() }}
+    <script src="{{ 'assets/javascripts/custom.fe17d8dd.min.js' | url }}"></script>
+  {% endblock %}
