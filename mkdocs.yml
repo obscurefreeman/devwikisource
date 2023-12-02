@@ -121,6 +121,8 @@ markdown_extensions:
 
 plugins:
   - tags
+  - search:
+      separator: '[\s\u200b\-]'
 
 # Copyright
 copyright: 2023 晦涩弗里曼
