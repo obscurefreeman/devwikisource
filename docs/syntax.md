@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 语法
 
 网站页面是使用Markdown格式来编辑的，因此Markdown语法全部适用。

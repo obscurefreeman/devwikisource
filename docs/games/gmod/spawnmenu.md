@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 添加菜单
 
 ## `DMenuBar` （生成菜单上方的菜单条）
