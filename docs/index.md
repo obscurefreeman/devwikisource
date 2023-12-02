@@ -1,7 +1,3 @@
----
-comments: true
----
-
 # 欢迎来到起源维基
 
 你的过去已烟消云散，来做你最擅长的事吧，捣鼓一会起源引擎。
@@ -15,8 +11,6 @@ comments: true
     * [x] 添加评论系统
     * [ ] 邀请起源圈开发者撰写文章
 - [ ] 公开并宣传网站
-
-
 
 <div class="result" markdown>
   <div class="grid cards" markdown>
