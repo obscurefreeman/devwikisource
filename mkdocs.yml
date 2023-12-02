@@ -19,6 +19,7 @@ theme:
     - navigation.footer
     - navigation.indexes
     - navigation.instant
+    - navigation.path
     # - navigation.prune
     - navigation.sections
     - navigation.tabs
@@ -34,6 +35,8 @@ theme:
   icon:
     logo: fontawesome/solid/flask
     repo: fontawesome/brands/github
+    tag:
+      default: fontawesome/solid/tag
   language: zh
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -91,9 +94,6 @@ extra:
     - icon: fontawesome/brands/reddit
       link: https://www.reddit.com/user/Wonderful-Snow-6080
       name: 我的Reddit主页
-    
-
-
   generator: false
 
 markdown_extensions:
@@ -101,7 +101,6 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - admonition
   - pymdownx.arithmatex:
       generic: true
   - footnotes
@@ -120,7 +119,8 @@ markdown_extensions:
   - pymdownx.tilde
 
 plugins:
-  - tags
+  - tags:
+      tags_file: tags.md
   - search:
       separator: '[\s\u200b\-]'
 

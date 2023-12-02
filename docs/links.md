@@ -1,5 +1,8 @@
 ---
 comments: true
+tags:
+  - 维基
+  - 技术
 ---
 
 # 站外链接

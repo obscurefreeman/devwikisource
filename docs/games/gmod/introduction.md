@@ -1,5 +1,11 @@
 ---
 comments: true
+tags:
+  - 起源
+  - 技术
+  - 编程
+  - 地图
+  - Gmod
 ---
 
 # 为Garry's Mod制作简单的模组

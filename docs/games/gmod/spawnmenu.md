@@ -1,5 +1,10 @@
 ---
 comments: true
+tags:
+  - 起源
+  - 技术
+  - 编程
+  - Gmod
 ---
 
 # 添加菜单

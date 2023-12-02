@@ -1,5 +1,8 @@
 ---
 comments: true
+tags:
+  - 维基
+  - 起源
 ---
 
 # 关于起源维基
