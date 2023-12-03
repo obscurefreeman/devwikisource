@@ -183,6 +183,10 @@ plugins:
       repository: obscurefreeman/sourcewiki
       branch: master
       token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+  - mkdocs-video:
+      is_video: True
+      video_muted: True
+      video_controls: True
 
 # Copyright
 copyright: 2023 晦涩弗里曼
