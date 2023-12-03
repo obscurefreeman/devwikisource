@@ -174,9 +174,9 @@ plugins:
   #     enable_creation_date: true
   #     fallback_to_build_date: true
   #     type: timeago
-  - social
-      cards_layout_options:
-        font_family: Noto Sans SC
+  # - social
+  #     cards_layout_options:
+  #       font_family: Noto Sans SC
 
 # Copyright
 copyright: 2023 晦涩弗里曼
