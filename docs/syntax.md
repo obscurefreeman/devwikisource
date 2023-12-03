@@ -3,6 +3,7 @@ comments: true
 tags:
   - 维基
   - 技术
+icon: material/format-font
 ---
 
 # 语法
@@ -191,3 +192,64 @@ tags:
 |  `2022`  | **[![Divinia Chronicles: Relics of Gan-Ti](https://developer.valvesoftware.com/w/images/7/76/Divchr_16px.png)](https://developer.valvesoftware.com/wiki/Divinia_Chronicles) [Divinia Chronicles: Relics of Gan-Ti](https://developer.valvesoftware.com/w/index.php?title=Divinia_Chronicles&action=edit&redlink=1)** `2022` **[![Entropy : Zero 2](https://developer.valvesoftware.com/w/images/7/79/Ez2-16px.png)](https://developer.valvesoftware.com/wiki/Entropy_:_Zero_2) [Entropy : Zero 2](https://developer.valvesoftware.com/wiki/Entropy_:_Zero_2)** `2022` **[![JBMod](https://developer.valvesoftware.com/w/images/8/8f/Jbmod-16px.png)](https://developer.valvesoftware.com/wiki/JBMod) [JBMod](https://developer.valvesoftware.com/wiki/JBMod)** `2022` **[![Jabroni Brawl: Episode 3](https://developer.valvesoftware.com/w/images/thumb/9/95/Jbep3-16px.png/16px-Jbep3-16px.png)](https://developer.valvesoftware.com/wiki/Jabroni_Brawl:_Episode_3) [Jabroni Brawl: Episode 3](https://developer.valvesoftware.com/wiki/Jabroni_Brawl:_Episode_3)** |
 |  `2023`  | **[![Military Conflict: Vietnam](https://developer.valvesoftware.com/w/images/thumb/f/ff/Mcv-16px.png/16px-Mcv-16px.png)](https://developer.valvesoftware.com/wiki/Military_Conflict:_Vietnam) [Military Conflict: Vietnam](https://developer.valvesoftware.com/wiki/Military_Conflict:_Vietnam)** |
 ```
+
+## 突出显示更改
+
+启用 Critic 后，可以使用 Critic 标记，这增加了突出显示建议的更改以及向文档添加内联注释的功能：
+
+``` title="包含建议更改的文本"
+可以 {--删除--} 文本并 {++添加++}替换文本。 这也可以合并为 {~~one~>一个~~} 操作。也可以 {==突出显示==} {>>并且可以内联添加注释<<}。
+
+{==
+
+还可以将开始和结束标记放在单独的行上，并在标记和内容之间添加新行，从而将格式化应用于一块内容。
+
+==}
+```
+
+可以 {--删除--} 文本并 {++添加++}替换文本。 这也可以合并为 {~~one~>一个~~} 操作。也可以 {==突出显示==} {>>并且可以内联添加注释<<}。
+
+
+{==
+
+还可以将开始和结束标记放在单独的行上，并在标记和内容之间添加新行，从而将格式化应用于一块内容。
+
+==}
+
+可以~~删除~~添加替换文本。这也可以合并为~~一个~~操作。也可以突出显示，并且可以内联添加注释。
+
+
+
+## 突出显示文本
+
+``` title="带高亮显示的文本"
+- ==这是标记==
+- ^^这是插入^^
+- ~~这是删除~~
+```
+
+
+- ==这是标记==
+- ^^这是插入^^
+- ~~这是删除~~
+
+## 下标和上标
+
+``` markdown title="带有下标和上标的文本"
+- H~2~O
+- A^T^A
+```
+
+
+- H~2~O
+- A^T^A
+
+## 添加键盘键
+
+请参阅 [Python Markdown 扩展](https://facelessuser.github.io/pymdown-extensions/extensions/keys/#extendingmodifying-key-map-index)文档，了解所有可用的键盘键。
+
+``` markdown title="键盘按键"
+++ctrl+alt+del++
+```
+
+++ctrl+alt+del++

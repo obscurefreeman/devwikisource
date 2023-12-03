@@ -36,7 +36,14 @@ theme:
     logo: fontawesome/solid/flask
     repo: fontawesome/brands/github
     tag:
-      default: fontawesome/solid/tag
+      default: material/tag
+      xml: material/xml
+      atom: material/atom
+      tools: material/tools
+      map: material/map
+      controller: material/controller
+      flask: fontawesome/solid/flask
+      engine: material/engine
   language: zh
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -94,6 +101,17 @@ extra:
     - icon: fontawesome/brands/reddit
       link: https://www.reddit.com/user/Wonderful-Snow-6080
       name: 我的Reddit主页
+      extra:
+  tags:
+    <tag>: <identifier>
+    编程: xml
+    Gmod: controller
+    反应下降: controller
+    地图: map
+    维基: flask
+    技术: atom
+    Lua: language-lua
+    起源: engine
   generator: false
 
 markdown_extensions:
@@ -117,6 +135,10 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.tilde
+  - admonition
+  # - pymdownx.emoji:
+  #   emoji_index: !!python/name:material.extensions.emoji.twemoji
+  #   emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - tags:

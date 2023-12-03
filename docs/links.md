@@ -3,6 +3,7 @@ comments: true
 tags:
   - 维基
   - 技术
+icon: material/link
 ---
 
 # 站外链接

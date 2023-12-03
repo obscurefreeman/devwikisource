@@ -3,6 +3,7 @@ comments: true
 tags:
   - 维基
   - 技术
+icon: material/book-edit-outline
 ---
 
 # 为维基的未来做出贡献
@@ -21,7 +22,7 @@ tags:
 
     切记请勿花费太多时间在准备阶段。
 
-#### VSC
+## VSC
 
 用于预览编辑好的网页。
 
