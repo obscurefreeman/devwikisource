@@ -169,16 +169,20 @@ plugins:
       tags_file: tags.md
   - search:
       separator: '[\s\u200b\-]'
-  - git-revision-date-localized:
-      enabled: !ENV [CI, false]
-      enable_creation_date: true
-      fallback_to_build_date: true
-      type: timeago
+  # - git-revision-date-localized:
+  #     enabled: !ENV [CI, false]
+  #     enable_creation_date: true
+  #     fallback_to_build_date: true
+  #     type: timeago
   # - social
   #     cards_layout_options:
   #       font_family: Noto Sans SC
   - glightbox
   # - git-authors
+  - git-committers:
+      repository: obscurefreeman/sourcewiki
+      branch: master
+      token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
 
 # Copyright
 copyright: 2023 晦涩弗里曼
