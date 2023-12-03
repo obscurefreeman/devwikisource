@@ -3,6 +3,7 @@ comments: true
 tags:
   - 维基
   - 起源
+icon: material/information-outline
 ---
 
 # 关于起源维基

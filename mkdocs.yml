@@ -8,7 +8,7 @@ theme:
   features:
     - announce.dismiss
     - content.action.edit
-    # - content.action.view
+    - content.action.view
     - content.code.annotate
     - content.code.copy
     # - content.code.select
@@ -64,9 +64,13 @@ theme:
 nav:
   - 主页:
     - 欢迎来到起源维基: index.md 
-    - 撰写和编辑文章: edit.md 
-    - 语法: syntax.md 
-    - 站外链接: links.md 
+    - 关于: about.md 
+    - 编辑:
+      - 规定: rules.md 
+      - 撰写和编辑文章: edit.md 
+      - 配置: configuration.md 
+      - 语法: syntax.md 
+      - 站外链接: links.md 
   - Gmod:
     - 简介: games/gmod/introduction.md 
     - 添加菜单: games/gmod/spawnmenu.md 
@@ -101,7 +105,6 @@ extra:
     - icon: fontawesome/brands/reddit
       link: https://www.reddit.com/user/Wonderful-Snow-6080
       name: 我的Reddit主页
-      extra:
   tags:
     <tag>: <identifier>
     编程: xml
@@ -112,6 +115,27 @@ extra:
     技术: atom
     Lua: language-lua
     起源: engine
+  analytics:
+    provider: google
+    property: G-Y6PB89JDM4
+    feedback:
+      title: 这个页面有帮助吗？
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: 这个页面有帮助
+          data: 1
+          note: >-
+            起源维基感谢您的反馈！
+        - icon: material/emoticon-sad-outline
+          name: 这个页面还需改进
+          data: 0
+          note: >- 
+            感谢您的反馈！
+            加入我们的<a href="https://github.com/obscurefreeman/sourcewiki/discussions" target="_blank" rel="noopener">讨论</a>，帮助我们改进此页面。
+  consent:
+    title: Cookie 同意书
+    description: >- 
+      本站使用谷歌分析来识别您的重复访问和偏好，并且衡量我们文档是否有效，同时检测用户是否找到了他们正在搜索的内容。在您的同意下，起源维基会变得越来越好。
   generator: false
 
 markdown_extensions:
@@ -136,15 +160,18 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.tilde
   - admonition
-  # - pymdownx.emoji:
-  #   emoji_index: !!python/name:material.extensions.emoji.twemoji
-  #   emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 plugins:
   - tags:
       tags_file: tags.md
   - search:
       separator: '[\s\u200b\-]'
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: date
 
 # Copyright
 copyright: 2023 晦涩弗里曼

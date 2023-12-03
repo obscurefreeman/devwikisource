@@ -85,16 +85,16 @@ icon: material/format-font
 ## 按钮
 
 ```
-[这是一个按钮](https://obscurefreeman.github.io/sourcewiki/){ .md-button }
+[这是一个按钮](index.md#/){ .md-button }
 ```
 
-[这是一个按钮](https://obscurefreeman.github.io/sourcewiki/){ .md-button }
+[这是一个按钮](index.md#/){ .md-button }
 
 ```
-[这是一个填充式按钮](https://obscurefreeman.github.io/sourcewiki/){ .md-button .md-button--primary }
+[这是一个填充式按钮](index.md#/){ .md-button .md-button--primary }
 ```
 
-[这是一个填充式按钮](https://obscurefreeman.github.io/sourcewiki/){ .md-button .md-button--primary }
+[这是一个填充式按钮](index.md#/){ .md-button .md-button--primary }
 
 ## 内容选项卡
 
@@ -195,7 +195,7 @@ icon: material/format-font
 
 ## 突出显示更改
 
-启用 Critic 后，可以使用 Critic 标记，这增加了突出显示建议的更改以及向文档添加内联注释的功能：
+起源维基启用了 Critic ，可以使用 Critic 标记，这增加了突出显示建议的更改以及向文档添加内联注释的功能：
 
 ``` title="包含建议更改的文本"
 可以 {--删除--} 文本并 {++添加++}替换文本。 这也可以合并为 {~~one~>一个~~} 操作。也可以 {==突出显示==} {>>并且可以内联添加注释<<}。
@@ -215,8 +215,6 @@ icon: material/format-font
 还可以将开始和结束标记放在单独的行上，并在标记和内容之间添加新行，从而将格式化应用于一块内容。
 
 ==}
-
-可以~~删除~~添加替换文本。这也可以合并为~~一个~~操作。也可以突出显示，并且可以内联添加注释。
 
 
 
