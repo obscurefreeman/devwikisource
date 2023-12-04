@@ -12,9 +12,4 @@ icon: material/information-outline
 
 起源维基是一个能让人安心学习起源引擎技术的地方，同时也是一个略带个人性质的知识储存库。我正在尽力丰富本维基储存的知识。与VDC不同，起源维基得益于全中文的文章与较为自由的编辑方式，它的存在使不同的中文起源开发者共享自己的知识。
 
-![type:video](https://www.youtube.com/watch?v=iSpglxHTJVM)
 
-
-<video style="width:50%" muted="" controls="" alt="type:video">
-   <source src="https://www.bilibili.com/video/BV1UN411374b/" type="video/mp4">
-</video>
