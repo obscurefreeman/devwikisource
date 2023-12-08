@@ -82,7 +82,7 @@ nav:
 extra: 
   social:
     - icon: fontawesome/solid/pen-to-square
-      link: https://obscurefreeman.github.io/blog/
+      link: https://obscurefreeman.netlify.app/
       name: 我的博客页面
     - icon: fontawesome/brands/bilibili
       link: https://space.bilibili.com/523837807
