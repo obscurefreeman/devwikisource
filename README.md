@@ -4,3 +4,9 @@
 本维基使用Mkdocs制作！
 
 备用网站：https://sourcewiki.netlify.app/
+
+# 贡献者
+
+<a href="https://github.com/obscurefreeman/sourcewiki/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=obscurefreeman/sourcewiki" />
+</a>
