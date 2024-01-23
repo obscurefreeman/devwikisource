@@ -48,7 +48,7 @@ OFMGCustomExtensions["Your Entity"] = {
 ```lua
 local page = ofmgactivate
 
-if string.sub(page, 1, 4) == "http" then
+if string.sub(page, 1, 4) == "http" or string.sub(page, 1, 6) == "asset:" then
     self.Panel:OpenURL(page)
     --如果是在线内容则打开网页。
 elseif string.sub(page, -5) == ".html" then
