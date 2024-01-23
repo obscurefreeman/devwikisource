@@ -72,8 +72,14 @@ nav:
       - 语法: syntax.md 
       - 站外链接: links.md 
   - Gmod:
-    - 简介: games/gmod/introduction.md 
-    - 添加菜单: games/gmod/spawnmenu.md 
+    - 制作插件:
+      - 简介: games/gmod/introduction.md 
+      - 添加菜单: games/gmod/spawnmenu.md 
+    - 制作游戏盒扩展:
+      - 简介: games/gmod/ofmg-extensions.md 
+      - 添加本地内容: games/gmod/ofmg-extensions-game.md 
+      - 添加在线内容: games/gmod/ofmg-extensions-online.md 
+      - 制作实体: games/gmod/ofmg-extensions-entity.md 
   - 反应下降:
     - 简介: games/alienswarm/introduction.md 
     - 制作挑战: games/alienswarm/creating_a_challenge.md 
